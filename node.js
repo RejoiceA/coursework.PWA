@@ -4,7 +4,7 @@ const session = require("client-sessions");
 const PORT = 4060;
 const app = express();
 
-//get Login
+//get Login page
 
 app.use(session({
   cookieName: 'session',
